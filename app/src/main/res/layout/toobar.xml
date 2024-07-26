@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/ToolbarTheme"
+    android:background="@color/lightthemecolor">
+    <Button
+        android:id="@+id/btnall"
+        android:text="All"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/themecolor"/>
+    <Button
+        android:id="@+id/btnwork"
+        android:text="Work"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/themecolor"/>
+
+    <Button
+        android:id="@+id/btnpersonal"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="@color/themecolor"
+        android:text="Personal" />
+
+
+</androidx.appcompat.widget.Toolbar>
